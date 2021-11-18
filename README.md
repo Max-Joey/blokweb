@@ -56,7 +56,14 @@ Modellen
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/Breakdown1.png" width="375px" alt="breakdown van de hele pagina">
+
+### de structuur: 
+<img src="images/Breakdown2.png" width="375px" alt="breakdown van de structuur">
+
+### de content: 
+<img src="images/Breakdown3.png" width="375px" alt="breakdown van de content">
+<img src="images/Breakdown4.png" width="375px" alt="breakdown van de content">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
