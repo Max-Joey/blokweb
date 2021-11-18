@@ -1,5 +1,67 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
+  margin: 0px;
+  padding: 0px;  
 }
 
+header {
+  background-color: blue;
+  padding: 10px;
+}
+
+header nav,h1{
+  background-color: white;
+  margin: 10px;
+}
+
+header img{
+  width: 10vw;
+  margin: 10px;
+}
+
+header button{
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px;
+  display: block;
+}
+
+main {
+  background-color: white;
+}
+
+main section{
+  background-color: grey;
+  padding: 10px;
+  margin: 40px;
+}
+
+main section h3,h4,h5{
+  background-color: white;
+  margin: 10px;
+}
+
+main section img{
+  width: 10vw;
+  margin: 10px;
+}
+
+footer {
+  background-color: blue;
+  padding: 10px;
+}
+
+li{
+  list-style: none;
+}
+
+footer nav, p{
+  background-color: white;
+  margin: 10px;
+}
