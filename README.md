@@ -91,8 +91,10 @@ Tot nu toe heb ik geen vragen en ben ik nog niet vastgelopen tijdens het coderen
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| Fleur                 | Anneke                        | Aris              | Zoë                       | Max(ik)               |
-| Geen vragen/problemen | Geen vragen, loopt wat achter | Vraag over margin | Vraag over zoekbalk maken | Geen vragen/problemen |
+| Fleur | Anneke | Aris | Zoë | Max |
+| --- | --- | --- | --- | --- |
+| Geen vragen/prolemen | Geen vragen, loopt wat achter | Vraag over margin | Vraag over zoekbalk maken | Geen vragen/prolemen |
+| ... | ... | ... | ... | ... |
 
 
 
