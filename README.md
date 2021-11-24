@@ -94,7 +94,6 @@ samen met je groepje opstellen
 | Fleur | Anneke | Aris | Zoë | Max |
 | --- | --- | --- | --- | --- |
 | Geen vragen/prolemen | Geen vragen, loopt wat achter | Vraag over margin | Vraag over zoekbalk maken | Geen vragen/prolemen |
-| ... | ... | ... | ... | ... |
 
 
 
