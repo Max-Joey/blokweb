@@ -64,13 +64,6 @@ Modellen
 ### de content: 
 <img src="images/Breakdown4.png" width="375px" alt="breakdown van de content">
 <img src="images/Breakdown3.png" width="375px" alt="breakdown van de content">
-
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
 </details>
 
 
@@ -83,17 +76,24 @@ Modellen
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben eerst begonnen met een grove layout te ontwerpen in HTML/CSS. Dit zodat ik een overzicht krijg van alle belangrijkste elementen en makkelijker onderscheid kan maken. Die ziet er als volgt uit:
+
+<img src="images/procesfoto1.png" width="250px" alt="breakdown van de hele pagina">
+
+Vervolgens ben ik begonnen met de homepagina die ik van boven naar beneden wil ontwerpen. Wel heb ik ervoor gekozen het hambugermenu voor nu over te slaan, omdat hier waarschijnlijk nog meer uitleg over komt in de les. Dit is een screenshot van mijn eerste pagina om dit dit moment:
+
+<img src="images/procesfoto2.png" width="250px" alt="breakdown van de hele pagina">
+
+Tot nu toe heb ik geen vragen en ben ik nog niet vastgelopen tijdens het coderen.
+
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Fleur                 | Anneke                        | Aris              | Zoë                       | Max(ik)               |
+| Geen vragen/problemen | Geen vragen, loopt wat achter | Vraag over margin | Vraag over zoekbalk maken | Geen vragen/problemen |
+
 
 
 ### Verslag van meeting
