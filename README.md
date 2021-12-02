@@ -78,11 +78,11 @@ Modellen
 ### Stand van zaken
 Ik ben eerst begonnen met een grove layout te ontwerpen in HTML/CSS. Dit zodat ik een overzicht krijg van alle belangrijkste elementen en makkelijker onderscheid kan maken. Die ziet er als volgt uit:
 
-<img src="images/procesfoto1.png" width="250px" alt="breakdown van de hele pagina">
+<img src="images/procesfoto1.png" width="250px" alt="">
 
 Vervolgens ben ik begonnen met de homepagina die ik van boven naar beneden wil ontwerpen. Wel heb ik ervoor gekozen het hambugermenu voor nu over te slaan, omdat hier waarschijnlijk nog meer uitleg over komt in de les. Dit is een screenshot van mijn eerste pagina om dit dit moment:
 
-<img src="images/procesfoto2.png" width="250px" alt="breakdown van de hele pagina">
+<img src="images/procesfoto2.png" width="250px" alt="">
 
 Tot nu toe heb ik geen vragen en ben ik nog niet vastgelopen tijdens het coderen.
 
@@ -100,10 +100,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik moet nog even wat huiswerk gaan inhalen, zodat ik wat nieuwe dingen leer om toe te passen in mijn website.
+- Voor de rest ben ik prima bezig.
 
 </details>
 
@@ -117,17 +115,16 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Deze week heb ik me vooral gefocused op het hamburger menu en hover styling van elementen. Dat is best goed gedaan en ik ben tevreden met de voortgang, wel wil ik nog wat bewegings animaties op mijn home pagina gaan verwerken. Hier is een screenshot van mijn home pagina op dit moment:
 
+<img src="images/procesfoto3.png" width="250px" alt="">
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Aris | Laurens | Zoë | Max |
+| --- | --- | --- | --- | --- |
+| Vraag over gebruik van grid | Geen vragen/problemen | Geen vragen/problemen | Geen vragen/problemen |
 
 
 ### Verslag van meeting
