@@ -22,7 +22,7 @@
 
 
 header {
-  background-image: url("images/headerimage.png");
+  background-image: url("../images/header1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -387,27 +387,27 @@ main section:nth-of-type(3) ul li{
 }
 
 main section:nth-of-type(3) li:nth-of-type(1){
-  background-image: url(images/homefoto1.png);
+  background-image: url("../images/homefoto1.jpg");
   flex-grow: 1;
   flex-basis: 100%;
 }
 
 main section:nth-of-type(3) li:nth-of-type(2){
-  background-image: url(images/homefoto2.png);
+  background-image: url("../images/homefoto2.jpg");
   flex-grow: 1;
   flex-basis: 45%;
   height: 15em;
 }
 
 main section:nth-of-type(3) li:nth-of-type(3){
-  background-image: url(images/homefoto3.png);
+  background-image: url("../images/homefoto3.jpg");
   flex-grow: 1;
   flex-basis: 45%;
   height: 15em;
 }
 
 main section:nth-of-type(3) li:nth-of-type(4){
-  background-image: url(images/homefoto4.png);
+  background-image: url("../images/homefoto4.jpg");
   flex-grow: 1;
   flex-basis: 100%;
 }
@@ -443,20 +443,20 @@ main section:nth-of-type(3) ul li a:focus{
 
 @media screen and (min-width: 1024px) {
   main section:nth-of-type(3) li:nth-of-type(1){
-    background-image: url(images/homefoto1.png);
+    background-image: url("../images/homefoto1.jpg");
     flex-grow: 1;
     flex-basis: 20%;
   }
   
   main section:nth-of-type(3) li:nth-of-type(2){
-    background-image: url(images/homefoto2.png);
+    background-image: url("../images/homefoto2.png");
     flex-grow: 1;
     flex-basis: 20%;
     height: 20em;
   }
   
   main section:nth-of-type(3) li:nth-of-type(3){
-    background-image: url(images/homefoto3.png);
+    background-image: url("../images/homefoto3.png");
     flex-grow: 1;
     flex-basis: 20%;
     height: 20em;
@@ -522,7 +522,7 @@ footer p{
 
 
 .pagina2 header{
-  background-image: url("images/header2image.png");
+  background-image: url("../images/header2image.png");
 }
 
 
@@ -643,7 +643,7 @@ footer p{
   flex-wrap: nowrap;
   padding: 1em;
   height: 20em;
-  background-image: url("images/waytozero.png");
+  background-image: url("../images/waytozero.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
