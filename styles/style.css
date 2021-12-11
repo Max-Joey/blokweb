@@ -46,8 +46,8 @@ header nav button{
   border-radius: unset;
   padding: 0;
   margin: 0;
-  cursor: pointer;
   width: auto;
+  cursor: pointer;
   text-align: unset;
   font-size: unset;
 }
@@ -171,7 +171,7 @@ header h1{
   font-size: 2em;
   font-weight: bold;
   color: white;
-  padding: 0.75em;
+  padding: 1em 1em 0.5em 1em;
   text-align: center;
 }
 
@@ -182,10 +182,9 @@ header button:last-child{
   color:var(--text-color);
   padding: 0.6em;
   text-align: center;
-  font-size: 0.75em;
+  font-size: 1em;
   display: block;
   border-radius: 2em;
-  width: 12em;
   margin-right: auto;
   margin-left: auto;
 }
@@ -235,13 +234,14 @@ main section:nth-of-type(1) div{
 }
 
 main section:nth-of-type(1) div h2{
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 main section:nth-of-type(1) div p{
   display: inline-flex;
   font-size: 1.5em;
   font-weight: lighter;
+  position: relative;
 }
 
 main section:nth-of-type(1) div button{
@@ -274,9 +274,8 @@ main section:nth-of-type(1) div ul{
   border-style: solid;
   border-width: 0.15em;
   position: absolute;
-  right: 1.8em;
-  left: 14.2em;
-  top: 4.1em;
+  right: 0;
+  left: 0;
 }
 
 main section:nth-of-type(1) div ul.dropdown{
@@ -305,7 +304,7 @@ main section:nth-of-type(1) div ul li a{
 /* ------------------------------- Styling voor MAIN > SECTION 2 (Mini menu met icons) ------------------------------- */
 
 main section:nth-of-type(2){
-  padding: 1em;
+  padding: 2em 1em 2em 1em;
 }
 
 main section:nth-of-type(2) h3{
@@ -343,6 +342,11 @@ main section:nth-of-type(2) ul li a:focus{
   main section:nth-of-type(2) ul li{
     flex-basis: 0;
   }
+
+  main section:nth-of-type(2){
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }  
 }
 
 main section:nth-of-type(2) ul li a{
@@ -363,12 +367,11 @@ main section:nth-of-type(2) ul li a p{
 /* ------------------------------- Styling voor MAIN > SECTION 3 (Banners) ------------------------------- */
 
 main section:nth-of-type(3){
-  padding: 1em;
+  padding: 2em 1em 2em 1em;
 }
 
 main section:nth-of-type(3) ul{
   display: flex;
-  padding: 0.75em;
   list-style: none;
   gap: 1em;
   flex-wrap: wrap;
@@ -387,27 +390,27 @@ main section:nth-of-type(3) ul li{
 }
 
 main section:nth-of-type(3) li:nth-of-type(1){
-  background-image: url("../images/homefoto1.jpg");
+  background-image: url("../images/homefoto1.png");
   flex-grow: 1;
   flex-basis: 100%;
 }
 
 main section:nth-of-type(3) li:nth-of-type(2){
-  background-image: url("../images/homefoto2.jpg");
+  background-image: url("../images/homefoto2.png");
   flex-grow: 1;
   flex-basis: 45%;
   height: 15em;
 }
 
 main section:nth-of-type(3) li:nth-of-type(3){
-  background-image: url("../images/homefoto3.jpg");
+  background-image: url("../images/homefoto3.png");
   flex-grow: 1;
   flex-basis: 45%;
   height: 15em;
 }
 
 main section:nth-of-type(3) li:nth-of-type(4){
-  background-image: url("../images/homefoto4.jpg");
+  background-image: url("../images/homefoto4.png");
   flex-grow: 1;
   flex-basis: 100%;
 }
@@ -443,23 +446,31 @@ main section:nth-of-type(3) ul li a:focus{
 
 @media screen and (min-width: 1024px) {
   main section:nth-of-type(3) li:nth-of-type(1){
-    background-image: url("../images/homefoto1.jpg");
     flex-grow: 1;
-    flex-basis: 20%;
+    flex-basis: 45%;
   }
   
   main section:nth-of-type(3) li:nth-of-type(2){
-    background-image: url("../images/homefoto2.png");
     flex-grow: 1;
-    flex-basis: 20%;
+    flex-basis: 45%;
     height: 20em;
   }
   
   main section:nth-of-type(3) li:nth-of-type(3){
-    background-image: url("../images/homefoto3.png");
     flex-grow: 1;
-    flex-basis: 20%;
+    flex-basis: 45%;
     height: 20em;
+  }
+
+  main section:nth-of-type(3) li:nth-of-type(4){
+    flex-grow: 1;
+    flex-basis: 45%;
+    height: 20em;
+  }
+
+  main section:nth-of-type(3){
+    padding-left: 7vw;
+    padding-right: 7vw;
   }
 }
 
@@ -472,24 +483,21 @@ footer{
   background-color: var(--background-highlight);
   display: flex;
   gap: 2em;
-  padding: 2em 1em 2em 1em;
+  padding: 1em;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 footer ul{
-  display: flex;
-  gap: 2em;
   list-style: none;
-  margin-right: auto;
-  flex-grow: 1;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
 }
 
-footer ul li{
-  font-weight: 500;
-  font-size: 1em;
-  align-self: center;
+footer ul a{
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 footer ul li:hover{
@@ -498,20 +506,32 @@ footer ul li:hover{
   text-decoration: underline;
 }
 
-footer ul li a{
-  color: var(--text-color);
-  text-decoration: none;
-}
-
 footer p{
   font-size: 1em;
   font-weight: 500;
   color: grey;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1024px) {
+  footer{
+    padding-right: 7vw;
+    padding-left: 7vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  footer{
+    justify-content: center;
+  }
+
+  footer p{
+    flex-basis: 100%;
+    text-align: center;
+  }
+
   footer ul{
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1em;
   }
 }
 
@@ -521,8 +541,21 @@ footer p{
 
 
 
+
+
+
+
+
 .pagina2 header{
   background-image: url("../images/header2image.png");
+}
+
+.pagina2 header h2{
+  color: var(--main-color);
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: normal;
+  padding: 0em 1em 1em 1em;
 }
 
 
@@ -538,37 +571,49 @@ footer p{
   background-color: var(--main-color);
   background-image: none;
   color: var(--text-color);
-  padding: 1em;
   height: auto;
 
+  display: flex;
   flex-direction: row;
+  text-align: left;
   flex-wrap: wrap;
-  gap: 3em;
-
-  padding-top: 3em;
-  padding-bottom: 3em;
+  justify-content: unset;
+  flex-wrap: wrap;
+  gap: 2em;
+  padding: 2em 1em 2em 1em;
 }
 
-.pagina2 main section:nth-of-type(1) h2{
-  font-size: 1.5em;
-  margin-bottom: 0.5em;
-  font-weight: lighter;
-}
-
-.pagina2 main section:nth-of-type(1) p{
-  font-size: 1em;
-}
-
-.pagina2 main section:nth-of-type(1) ul{
-  font-size: 1em;
-  list-style-type: circle;
-  list-style-position: inside;
-}
-
-.pagina2 main section:nth-of-type(1) article{
-  flex-basis: 20em;
+.pagina2 main section article{
   flex-grow: 1;
+  flex-basis: 48%;
 }
+
+.pagina2 main section article ul{
+  list-style: circle;
+  list-style-position: inside;
+  font-size: 1.2em;
+}
+
+.pagina2 main section article p{
+  font-size: 1.2em;
+}
+
+.pagina2 main section article h2{
+  font-weight: lighter;
+  padding: 0em 0em 1em 0em;
+  font-size: 2em;
+}
+
+@media screen and (min-width: 1024px) {
+  .pagina2 main section:nth-of-type(1){
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
+}
+
+
+
+
 
 
 
@@ -577,24 +622,20 @@ footer p{
 
 .pagina2 main section:nth-of-type(2){
   background-color: var(--background-highlight);
-  padding: 1em;
-  padding-bottom: 3em;
+  padding: 2em 1em 2em 1em;
 }
 
 .pagina2 main section:nth-of-type(2) h2{
   text-align: center;
   font-weight: lighter;
-  padding: 0;
-  margin-bottom: 1em;
-  margin-top: 1em;
+  padding-bottom: 1em;
 }
 
 .pagina2 main section:nth-of-type(2) ul{
   display: flex;
   flex-direction: row;
   list-style: none;
-  padding: 0;
-  gap: 1em;
+  gap: 2em;
   flex-wrap: wrap;
 }
 
@@ -615,13 +656,13 @@ footer p{
   padding: 1em;
 
   flex-grow: 1;
-  flex-basis: 15em;
-  flex-shrink: 0;
+  min-width: 15em;
 }
 
 .pagina2 main section:nth-of-type(2) h3{
-  padding: 0;
-  margin-bottom: 1em;
+  padding: 0.5em 0em 0.5em 0em;
+  font-size: 2em;
+  font-weight: normal;
 }
 
 .pagina2 main section:nth-of-type(2) ul li a{
@@ -631,16 +672,48 @@ footer p{
   font-weight: lighter;
 }
 
+.pagina2 main section:nth-of-type(2) ul li a:hover{
+  transition: 1s;
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+.pagina2 main section:nth-of-type(2) ul li a:focus{
+  transform: scale(1.1);
+  background-color: unset;
+  text-decoration: underline;
+}
+
 .pagina2 main section:nth-of-type(2) ul li i{
   color:var(--secondary-color);
-  font-size: 2em;
+  font-size: 4em;
 }
+
+@media screen and (min-width: 1024px) {
+  .pagina2 main section:nth-of-type(2){
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 .pagina2 main section:nth-of-type(3){
   display: flex;
   flex-wrap: nowrap;
+  flex-direction: column;
   padding: 1em;
   height: 20em;
   background-image: url("../images/waytozero.png");
@@ -652,48 +725,69 @@ footer p{
 
 .pagina2 main section:nth-of-type(3) article{
   background-color:var(--background-highlight);
-  width: 40%;
-  padding: 0.5em;
+  padding: 1em;
   margin-top: auto;
   margin-bottom: auto;
+  flex-grow: 0;
 }
 
 
-.pagina2 main section:nth-of-type(3) h2{
+.pagina2 main section:nth-of-type(3) article h2{
   font-weight: bold;
-  margin-bottom: 0.2em;
-  margin-top: 0.2em;
+  padding: 0em 0em 0.5em 0em;
+  margin: 0;
+  font-size: 1.5em;
 }
 
-.pagina2 main section:nth-of-type(3) p{
-  margin-bottom: 0.2em;
-  margin-top: 0.2em;
+.pagina2 main section:nth-of-type(3) article p{
+  font-weight: 1em;
+  padding: 0em 0em 0.5em 0em;
+  margin: 0;
 }
 
-.pagina2 main section:nth-of-type(3) button{
+.pagina2 main section:nth-of-type(3) article button{
   background-color:var(--background-highlight);
   border: 0.2em solid;
   border-color:var(--secondary-color);
   color:var(--secondary-color);
   padding: 0.6em;
   text-align: center;
-  font-size: 0.75em;
+  font-size: 1em;
   display: block;
   border-radius: 2em;
-  width: 12em;
-  margin-bottom: 0.2em;
-  margin-top: 1em;
+  width: auto;
+  flex-grow: 0;
 }
 
-.pagina2 main section:nth-of-type(3) button:hover{
+.pagina2 main section:nth-of-type(3) article button:hover{
   background-color:var(--secondary-color);
   color: var(--main-color);
+  transition: 1s;
+  transform: scale(1.1);
 }
 
-.pagina2 main section:nth-of-type(3) button:focus{
+.pagina2 main section:nth-of-type(3) article button:focus{
   background-color:var(--secondary-color);
   color: var(--main-color);
+  transform: scale(1.1);
 }
+
+@media screen and (min-width: 1024px) {
+  .pagina2 main section:nth-of-type(3){
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
+
+  .pagina2 main section:nth-of-type(3) article{
+    width: 40%;
+  }
+}
+
+
+
+
+
+
 
 
 
@@ -705,17 +799,13 @@ footer p{
 
 .pagina2 section:nth-of-type(4){
   background-color: var(--main-color);
-  padding: 1em;
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding: 2em 1em 2em 1em;
 }
 
 .pagina2 section:nth-of-type(4) h2{
   text-align: center;
   font-weight: lighter;
-  padding: 0;
-  margin-bottom: 1em;
-  margin-top: 1em;
+  padding-bottom: 1em;
 }
 
 .pagina2 section:nth-of-type(4) img{
@@ -734,27 +824,39 @@ footer p{
 
 .pagina2 section:nth-of-type(4) ul li{
   padding: 1em;
-  width: 25em;
   flex-grow: 1;
+  flex-basis: 100%;
 }
 
 .pagina2 section:nth-of-type(4) ul li h3{
   margin-bottom: 1em;
   font-weight: bold;
+  font-size: 1.2em;
 }
 
 .pagina2 section:nth-of-type(4) ul li a{
   color: var(--secondary-color);
+  font-size: 1.2em;
+  display: block;
+}
+
+.pagina2 section:nth-of-type(4) ul li p{
+  font-size: 1.2em;
+}
+
+.pagina2 section:nth-of-type(4) ul li a:hover{
+  color: var(--blue);
+  transition: 1s;
+  text-decoration: none;
 }
 
 .pagina2 section:nth-of-type(4) ul li a:focus{
-  color: var(--main-color);
-  background-color: var(--secondary-color);
+  color: var(--blue);
 }
 
 .pagina2 section:nth-of-type(4) ul li p:nth-of-type(2){
-  margin-bottom: 1em;
-  margin-top: 1em;
+  padding-bottom: 1em;
+  padding-top: 1em;
   font-weight: bold;
 }
 
@@ -765,20 +867,32 @@ footer p{
   color:var(--secondary-color);
   padding: 0.6em;
   text-align: center;
-  font-size: 0.75em;
+  font-size: 1em;
   display: block;
   border-radius: 2em;
-  width: 12em;
-  margin-bottom: 0.2em;
-  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .pagina2 section:nth-of-type(4) ul li button:hover{
   background-color:var(--secondary-color);
   color: var(--main-color);
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 .pagina2 section:nth-of-type(4) ul li button:focus{
   background-color:var(--secondary-color);
-  color: var(--main-color); 
+  color: var(--main-color);
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 1024px) {
+  .pagina2 section:nth-of-type(4) ul li{
+    flex-basis: 45%;
+  }
+
+  .pagina2 section:nth-of-type(4){
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
 }
