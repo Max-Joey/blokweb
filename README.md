@@ -1,15 +1,3 @@
-# Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
-
-
 ## Jij
 
 <details>
@@ -101,7 +89,7 @@ samen met je groepje opstellen
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - Ik moet nog even wat huiswerk gaan inhalen, zodat ik wat nieuwe dingen leer om toe te passen in mijn website.
-- Voor de rest ben ik prima bezig.
+- Voor de rest gaat het prima en ben ik goed opweg.
 
 </details>
 
@@ -123,17 +111,18 @@ Deze week heb ik me vooral gefocused op het hamburger menu en hover styling van 
 samen met je groepje opstellen
 
 | Aris | Laurens | Zoë | Max |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | Vraag over gebruik van grid | Geen vragen/problemen | Geen vragen/problemen | Geen vragen/problemen |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik loop een beetje achter, maar ik hoop dit weekend mijn eerste pagina af te krijgen.
+- Ik had niet echt vragen tot nu toe, maar ik heb wel wat tips gekregen van de student assisenten namelijk:
+- Wees cosisent als het gaat om waardes (ik gebruik px, em, vw en procenten door elkaar)
+- Ik kan de div's weghalen bij de banners op de homepagina en in plaats daarvan ul met li's gebruiken.
+
 
 </details>
 

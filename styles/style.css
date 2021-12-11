@@ -78,11 +78,6 @@ header nav ul li:hover{
   transition: 1s;
 }
  
- 
-
-
-
-
 @media screen and (max-width: 1024px) {
   header nav ul {
     display: none;
@@ -98,12 +93,6 @@ header nav ul li:hover{
     display: none;
   }
 }
-
-
-
-
-
-
 
 header div{
   background-color: var(--main-color);
@@ -160,13 +149,6 @@ header div ul li a:focus{
   background-color: var(--background-highlight);
 }
 
-
-
-
-
-
-
-
 header h1{
   font-size: 2em;
   font-weight: bold;
@@ -207,15 +189,7 @@ header button:last-child:focus{
 }
 
 
-
- 
- 
- 
-
-
- 
-
-/* ------------------------------- Styling voor MAIN > SECTION 1 (Hulp element) ------------------------------- */
+/* ------------------------------- Styling voor MAIN > SECTION 1 (Hulp dropdown) ------------------------------- */
 
 
 main section:nth-of-type(1){
@@ -300,8 +274,7 @@ main section:nth-of-type(1) div ul li a{
 }
 
 
-
-/* ------------------------------- Styling voor MAIN > SECTION 2 (Mini menu met icons) ------------------------------- */
+/* ------------------------------- Styling voor MAIN > SECTION 2 (Mini nav met icons) ------------------------------- */
 
 main section:nth-of-type(2){
   padding: 2em 1em 2em 1em;
@@ -365,6 +338,7 @@ main section:nth-of-type(2) ul li a p{
 
 
 /* ------------------------------- Styling voor MAIN > SECTION 3 (Banners) ------------------------------- */
+
 
 main section:nth-of-type(3){
   padding: 2em 1em 2em 1em;
@@ -475,7 +449,6 @@ main section:nth-of-type(3) ul li a:focus{
 }
 
 
-
 /* ------------------------------- Styling voor Footer ------------------------------- */
 
 
@@ -536,14 +509,13 @@ footer p{
 }
 
 
+/* ------------------------------- Styling voor PAGINA 2 ------------------------------- */
+/* ------------------------------- Styling voor PAGINA 2 ------------------------------- */
+/* ------------------------------- Styling voor PAGINA 2 ------------------------------- */
+/* ------------------------------- Styling voor PAGINA 2 ------------------------------- */
 
 
-
-
-
-
-
-
+/* ------------------------------- Styling voor Header ------------------------------- */
 
 
 .pagina2 header{
@@ -559,12 +531,7 @@ footer p{
 }
 
 
-
-
-
-
-
-
+/* ------------------------------- Styling voor MAIN > SECTION 1 (info tekst) ------------------------------- */
 
 
 .pagina2 main section:nth-of-type(1){
@@ -612,12 +579,7 @@ footer p{
 }
 
 
-
-
-
-
-
-
+/* ------------------------------- Styling voor MAIN > SECTION 2 (navigatie met icons) ------------------------------- */
 
 
 .pagina2 main section:nth-of-type(2){
@@ -697,17 +659,7 @@ footer p{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* ------------------------------- Styling voor MAIN > SECTION 3 (achtergrond met tekstblok) ------------------------------- */
 
 
 .pagina2 main section:nth-of-type(3){
@@ -784,17 +736,7 @@ footer p{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* ------------------------------- Styling voor MAIN > SECTION 4 (elektrische modellen) ------------------------------- */
 
 
 .pagina2 section:nth-of-type(4){
