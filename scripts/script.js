@@ -7,13 +7,13 @@ function doeFormNeerEnOp(){
    let hetFormulier = document.querySelector("header div");
    hetFormulier.classList.toggle("toonMenu");
 }
- 
-deButton.addEventListener("click", doeFormNeerEnOp);
-closeButton.addEventListener("click", doeFormNeerEnOp);
 
 function dropdownUitklappen(){
 	let dropdownList = document.querySelector("main section:nth-of-type(1) div ul");
 	dropdownList.classList.toggle("dropdown");
 }
+
+deButton.addEventListener("click", doeFormNeerEnOp);
+closeButton.addEventListener("click", doeFormNeerEnOp);
 
 dropdownButton.addEventListener("click", dropdownUitklappen);

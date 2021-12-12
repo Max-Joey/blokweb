@@ -22,7 +22,7 @@
 
 
 header {
-  background-image: url("../images/header1.png");
+  background-image: url("../images/header1.png"); /* --bron afbeelding: https://superlease.nl/app/uploads/2021/07/slad-3911750a.jpg -- */
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -364,27 +364,27 @@ main section:nth-of-type(3) ul li{
 }
 
 main section:nth-of-type(3) li:nth-of-type(1){
-  background-image: url("../images/homefoto1.png");
+  background-image: url("../images/homefoto1.png"); /* --bron afbeelding: https://www.volkswagen.nl/-/media/vwpkw/images/winter/winter-2021/wintercheck_2021_adaptive.ashx -- */
   flex-grow: 1;
   flex-basis: 100%;
 }
 
 main section:nth-of-type(3) li:nth-of-type(2){
-  background-image: url("../images/homefoto2.png");
+  background-image: url("../images/homefoto2.png"); /* --bron afbeelding: https://s3.eu-central-1.amazonaws.com/pondealer-nl/content/content_items/57051/1280x/Volkswagen_Taigo_-_MP_-_1.jpg  -- */
   flex-grow: 1;
   flex-basis: 45%;
   height: 15em;
 }
 
 main section:nth-of-type(3) li:nth-of-type(3){
-  background-image: url("../images/homefoto3.png");
+  background-image: url("../images/homefoto3.png"); /* --bron afbeelding: https://content.presspage.com/uploads/1449/1920_volkswagenbedrijfswagensline-up1-514583.jpg?10000 -- */
   flex-grow: 1;
   flex-basis: 45%;
   height: 15em;
 }
 
 main section:nth-of-type(3) li:nth-of-type(4){
-  background-image: url("../images/homefoto4.png");
+  background-image: url("../images/homefoto4.png"); /* --bron afbeelding: https://assets.volkswagen.com/is/image/volkswagenag/POR4688_VW-Polo-UNITED-R-Line-Exterieur-front-in-front-of-concrete-wall_16-9_f-cc?Zml0PWNyb3AsMSZmbXQ9anBnJnFsdD03OSZ3aWQ9ODAwJmhlaT00NTAmYWxpZ249MC4wMCwwLjAwJmJmYz1vZmYmNjYwMA== -- */
   flex-grow: 1;
   flex-basis: 100%;
 }
@@ -509,17 +509,19 @@ footer p{
 }
 
 
+
 /* ------------------------------- Styling voor PAGINA 2 ------------------------------- */
 /* ------------------------------- Styling voor PAGINA 2 ------------------------------- */
 /* ------------------------------- Styling voor PAGINA 2 ------------------------------- */
 /* ------------------------------- Styling voor PAGINA 2 ------------------------------- */
+
 
 
 /* ------------------------------- Styling voor Header ------------------------------- */
 
 
 .pagina2 header{
-  background-image: url("../images/header2image.png");
+  background-image: url("../images/header2image.png"); /* --bron afbeelding: https://uploads.volkswagen-newsroom.com/system/production/media/30104/images/eecc50bb04c844d553a49bd68f7b1392fc6d2f70/DB2019AU01094_x750.jpg?1581003902  -- */
 }
 
 .pagina2 header h2{
@@ -668,7 +670,7 @@ footer p{
   flex-direction: column;
   padding: 1em;
   height: 20em;
-  background-image: url("../images/waytozero.png");
+  background-image: url("../images/waytozero.png"); /* --bron afbeelding: https://www.volkswagen.nl/-/media/vwpkw/images/elektrisch-rijden/way-to-zero/motorway.ashx  -- */
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
