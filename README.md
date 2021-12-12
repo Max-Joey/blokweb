@@ -27,11 +27,13 @@ Fully responsive
 https://www.volkswagen.nl
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Home  
+Home
+
 <img src="images/pagina1.png" width="375px" alt="De homepagina van de website">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Elektrisch rijden  
+Elektrisch rijden
+ 
 <img src="images/pagina2.png" width="375px" alt="Pagina elektrisch rijden">
  
 </details>
@@ -67,11 +69,13 @@ Elektrisch rijden
 Ik ben eerst begonnen met een grove layout te ontwerpen in HTML/CSS. Dit zodat ik een overzicht krijg van alle belangrijkste elementen en makkelijker onderscheid kan maken. 
 
 Die ziet er als volgt uit:
+
 <img src="images/procesfoto1.png" width="250px" alt="">
 
 Vervolgens ben ik begonnen met de homepagina, die ben ik van boven naar beneden gaan ontwerpen. Wel heb ik ervoor gekozen het hambugermenu voor nu over te slaan, omdat hier waarschijnlijk nog meer uitleg over komt in de les. 
 
 Dit is een screenshot van mijn eerste pagina om dit dit moment:
+
 <img src="images/procesfoto2.png" width="250px" alt="">
 
 Tot nu toe heb ik geen vragen en ben ik nog niet vastgelopen tijdens het coderen.
@@ -108,9 +112,11 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 Deze week heb ik me vooral gefocused op het hamburger menu en mijn homepagina responsive maken. Ik had nog nooit een werkende hamburger menu gemaakt dus ik vond het in het begin vrij lastig. Gelukkig ben ik door de Humpty opdracht goed opweg geholpen.
 
 Ik zat lang te struggelen met de menu icon en close icon. Uiteindelijk heb ik door te werken met visibility hidden/visible in de css en java ongveer bereikt wat ik wilde. Toch ben ik nog niet helemaal tevreden hoe het menu eruit ziet en ook denk ik dat er een betere manier is om de icons te wisselen. Hier is het uiteindelijke resultaat, volgende week ga ik proberen er nog wat beters van te maken.
+
 <img src="images/procesfoto4.png" width="250px" alt="">
 
 Dit is hoe mijn home pagina er nu uit ziet:
+
 <img src="images/procesfoto3.png" width="250px" alt="">
 
 - Ik wil nog een dropdown gaan maken onder het kopje "hoe kunnen we je helpen"
@@ -205,12 +211,15 @@ Deze week moest er bij mij veel gaan gebeuren aan mijn website, doordat ik wat t
 Alleerst heb ik de laatste aanpassingen gedaan aan mijn homepagina. Ik heb een volledig nieuwe navigatie gemaakt die ook goed responsive is. Het wisselen van de hamburger icon en close icon is nu niet meer nodig omdat het menu nu zit geplakt aan de bovenkant van de site.
 
 Hier was ik bezig met mijn nieuwe navigatie ontwerpen:
+
 <img src="images/procesfoto5.png" width="250px" alt="">
+
 Ik ben zeer tevreden over het eindresultaat van de navigatie. Dit is iets wat ik graag wilde kunnen vorig jaar en nu is het eindelijk gelukt.
 
 Ook heb ik deze week mijn tweede pagina gemaakt en dit ging eigenlijk zonder al te veel moeite. Het scheelde dat ik niet opnieuw een header en navigatie moest maken, dus ik was hier niet heel tijd aan kwijt.
 
 Dit is hoe mijn 2e pagina eruit ziet:
+
 <img src="images/procesfoto6.png" width="250px" alt="">
 
 Als allerlaatst was het tijd om de website volledig responsive te gaan maken. Ik vond eigenlijk dat mijn website zonder enige media rules al erg responsive was. Dat komt doordat ik bijna overal heb gewerkt met flexbox. Toch zijn er hier en daar wat aanpassingen nodig om het op vooral op een laptop een beter uit te laten zien.
@@ -262,9 +271,11 @@ Wat was lastig/kon beter?
 hier screenshot(s) van mijn eindresultaat:
 
 Pagina 1 homepagina:
+
 <img src="images/eindresultaatpagina1.png" width="250px" alt="">
 
 Pagina 2 elektrisch rijden:
+
 <img src="images/eindresultaatpagina2.png" width="250px" alt="">
 
 </details>
