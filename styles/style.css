@@ -17,6 +17,11 @@
   --secondary-color: #081D4D;
 }
 
+body{
+  max-width: 1300px;
+  margin: auto;
+}
+
 
 /* ------------------------------- Styling voor HEADER ------------------------------- */
 
